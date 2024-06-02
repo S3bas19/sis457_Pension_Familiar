@@ -17,27 +17,27 @@ GO
 CREATE TABLE Anfitrion (
   id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
   nombre VARCHAR(30) NOT NULL,
-  apellidoPaterno VARCHAR(20) NULL,
-  apellidoMaterno VARCHAR(20) NULL,
-  ususario VARCHAR(15) NOT NULL,
+  apellidoPaterno VARCHAR(20) NOT NULL,
+  apellidoMaterno VARCHAR(20) NOT NULL,
+  usuario VARCHAR(15) NOT NULL,
   clave VARCHAR(100) NOT NULL
 );
 CREATE TABLE Cocinero (
   id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
   nombre VARCHAR(30) NOT NULL,
-  apellidoPaterno VARCHAR(20) NULL,
-  apellidoMaterno VARCHAR(20) NULL
+  apellidoPaterno VARCHAR(20) NOT NULL,
+  apellidoMaterno VARCHAR(20) NOT NULL
 );
 CREATE TABLE Camarero (
   id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
   nombre VARCHAR(30) NOT NULL,
-  apellidoPaterno VARCHAR(20) NULL,
-  apellidoMaterno VARCHAR(20) NULL
+  apellidoPaterno VARCHAR(20) NOT NULL,
+  apellidoMaterno VARCHAR(20) NOT NULL
 );
 CREATE TABLE Mesa (
   id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
   capacidad INT NOT NULL,
-  ubicacion VARCHAR(20) NULL
+  ubicacion VARCHAR(20) NOT NULL
 );
 CREATE TABLE Menu (
   id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
