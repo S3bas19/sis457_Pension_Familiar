@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadPensionFamiliar", "CadPensionFamiliar\CadPensionFamiliar.csproj", "{1E374387-B509-40D5-B877-FAFAD7E9DC39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClnPensionFamiliar", "ClnPensionFamiliar\ClnPensionFamiliar.csproj", "{3EF97B51-E56A-469C-85B8-476C683BE05F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1E374387-B509-40D5-B877-FAFAD7E9DC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E374387-B509-40D5-B877-FAFAD7E9DC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E374387-B509-40D5-B877-FAFAD7E9DC39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF97B51-E56A-469C-85B8-476C683BE05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF97B51-E56A-469C-85B8-476C683BE05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF97B51-E56A-469C-85B8-476C683BE05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF97B51-E56A-469C-85B8-476C683BE05F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
