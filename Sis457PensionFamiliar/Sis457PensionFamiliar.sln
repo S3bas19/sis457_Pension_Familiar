@@ -3,11 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadPensionFamiliar", "CadPensionFamiliar\CadPensionFamiliar.csproj", "{1E374387-B509-40D5-B877-FAFAD7E9DC39}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E374387-B509-40D5-B877-FAFAD7E9DC39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E374387-B509-40D5-B877-FAFAD7E9DC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E374387-B509-40D5-B877-FAFAD7E9DC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E374387-B509-40D5-B877-FAFAD7E9DC39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {97C2DB15-16C2-455A-A7C1-A3A17451090A}
+		SolutionGuid = {E22B7A7A-BBC5-422D-AF70-BBAA23AAEF8C}
 	EndGlobalSection
 EndGlobal

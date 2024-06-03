@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="78d6ddf5949e4420ae154dea8d1cd1a2" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="LabPensionFamiliarModel.Anfitrion" Width="1.5" PointX="11.625" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPensionFamiliarModel.Camarero" Width="1.5" PointX="6.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPensionFamiliarModel.Cliente" Width="1.5" PointX="0.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPensionFamiliarModel.Cocinero" Width="1.5" PointX="9.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPensionFamiliarModel.Factura" Width="1.5" PointX="3.875" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPensionFamiliarModel.FacturaDetalle" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPensionFamiliarModel.Menu" Width="1.5" PointX="8.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPensionFamiliarModel.Mesa" Width="1.5" PointX="2.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LabPensionFamiliarModel.Pensionado" Width="1.5" PointX="0.5" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="LabPensionFamiliarModel.fk_Factura_Camarero" ManuallyRouted="false" />
+        <AssociationConnector Association="LabPensionFamiliarModel.fk_Factura_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="LabPensionFamiliarModel.fk_Pensionado_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="LabPensionFamiliarModel.fk_FacturaDetalle_Cocinero" ManuallyRouted="false" />
+        <AssociationConnector Association="LabPensionFamiliarModel.fk_Factura_Mesa" ManuallyRouted="false" />
+        <AssociationConnector Association="LabPensionFamiliarModel.fk_FacturaDetalle_Factura" ManuallyRouted="false" />
+        <AssociationConnector Association="LabPensionFamiliarModel.fk_FacturaDetalle_Menu" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
